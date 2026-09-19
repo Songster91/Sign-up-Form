@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign Up Form</title>
+  <title>Document</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
 </head>
-<body>
 
+<body>
+  <main>
+
+    <div class="left">
+      <div class="logo">
+        <img src="logo/odin-lined.png" alt="LOGO">
+        <p>ODIN</p>
+      </div>
+    </div>
+    <div class="right">
+      <p> This is the Sign Up project of 'THE ODIN PROJECT'</p>
+      <p>Sign Up to get started</p>
+      <div class="formContainer">
+        <form action="#" method="post">
+            <h1>Let's do this! </h1>
+          <div class="name">
+
+              <label for="firstName">FIRST NAME</label>
+            <input type="text" name="firstName" placeholder="Enter Your First Name" class="name">
+
+              <label for="lastName">LAST NAME</label>
+         <input type="text" name="lastName" placeholder="Enter Your Last Name" class="name">
+          </div>
+          <div class="info">
+
+            <label for="Email">EMAIL</label>
+            <input type="email" name="Email" class="info" placeholder="xyz@gmail.com">
+
+            <label for="phoneNumber">PHONE NUMBER</label>
+            <input type="tel" name="phoneNumber" placeholder="+880 255 566 4545" class="info">
+          </div>
+          <div class="password">
+
+            <label for="pass">PASSWORD</label>
+            <input type="password" name="pass" placeholder="Enter A Password" class="pass">
+            <label for="confirmPass">CONFIRM PASSWORD</label>
+            <input type="email" name="Email" class="info" placeholder="xyz@gmail.com">
+
+          </div>
+      </div>
+      <button type="submit">CREATE ACCOUNT</button>
+      <p>Already have an Account? <button type="submit">Log in</button>
+        </form>
+    </div>
+
+  </main>
 </body>
+
 </html>
